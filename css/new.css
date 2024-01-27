@@ -1,0 +1,17 @@
+/* New shoes 
+-------------- */
+
+.left-part h5 {
+    color: #F30E0E;
+    text-align: left;
+}
+
+@media screen and (min-width: 500px) and (max-width: 930px) {
+    /* .shop-container .left-part {
+        padding: 0;
+        max-width: 350px;
+        margin: 30px auto;
+        border-bottom: 1px solid;
+        padding-bottom: 30px;
+    } */
+}

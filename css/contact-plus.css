@@ -1,0 +1,90 @@
+/* Contact header 
+------------------------- */
+
+header {
+    background-image: none;
+}
+
+.contact-header {
+    background-image: url(../photos/contact-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.contact-header h2 {
+    position: absolute;
+    left: 100px;
+    top: 440px;
+    color: #fff;
+}
+
+.contact-activee {
+    max-width: 60%;
+    position: relative;
+    left: 29px;
+    top: 2px;
+    background: rgb(162, 160, 160);
+    height: 3px;
+}
+
+
+/* CONTACT-PLUS PAGE 
+-------------------------------------------------- */
+
+.main-contact-plus {
+    max-width: 580px;
+    margin: 80px auto;
+}
+
+.main-contact-plus h2,
+.main-contact-plus h4,
+.main-contact-plus h4 a {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.main-contact-plus h4 a {
+    font-weight: 500;
+    color: #797878;
+}
+
+.main-contact-plus h4 a:hover,
+.main-contact-plus span a:hover {
+    color: #000;
+}
+
+.main-contact-plus span a {
+    font-weight: 500;
+    border-left: 1px solid #797878;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.main-contact-plus .returns {
+    border-top: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
+}
+
+.main-contact-plus p {
+    margin: 20px 0;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 930px) {
+    .contact-activee {
+        max-width: 100%;
+        left: 0;
+    }
+    .contact-header {
+        height: 420px;
+        background-position: inherit;
+    }
+    .main-contact-plus {
+        margin: 50px auto;
+        padding: 0 30px;
+    }
+}

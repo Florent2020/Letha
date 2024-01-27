@@ -1,0 +1,272 @@
+/* Contact header 
+------------------------- */
+
+header {
+    background-image: none;
+}
+
+.contact-header {
+    background-image: url(../photos/contact-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.contact-header h2 {
+    position: absolute;
+    left: 100px;
+    top: 440px;
+    color: #fff;
+}
+
+.contact-activee {
+    max-width: 60%;
+    position: relative;
+    left: 29px;
+    top: 2px;
+    background: rgb(162, 160, 160);
+    height: 3px;
+}
+
+
+/* CONTACT PAGE 
+-------------------------------------------------- */
+
+main {
+    margin: 0;
+}
+
+.main-contact {
+    background: #ddd;
+}
+
+.contact-page {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+.contact-area {
+    max-width: 1000px;
+    margin: 100px auto;
+    background: #fff;
+    height: 850px;
+}
+
+.contact-left {
+    width: 49%;
+    height: 850px;
+    float: left;
+    background-image: url(../photos/shoemaker-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    padding: 240px 0 0 100px;
+}
+
+.contact-left h3,
+.contact-left h4 {
+    color: #fff;
+}
+
+.contact-left img {
+    width: 20px;
+    height: 15px;
+    margin-right: 25px;
+}
+
+.contact-left .contact-address {
+    position: relative;
+    bottom: 212px;
+    left: 50px;
+}
+
+.contact-left .contact-phone {
+    position: relative;
+    bottom: 195px;
+    left: 50px;
+}
+
+.contact-left .contact-email {
+    position: relative;
+    bottom: 165px;
+    left: 50px;
+}
+
+.contact-left h3 {
+    margin: 10px 0;
+}
+
+.contact-left span {
+    color: #000;
+    font-weight: 700;
+}
+
+.contact-left h4 {
+    padding: 0 155px 0 44px;
+    color: #000;
+    font-weight: 700;
+}
+
+.contact-left .contact-phone h4,
+.contact-left .contact-email h4 {
+    color: #000;
+}
+
+.contact-right {
+    width: 49%;
+    float: right;
+    background: #fff;
+    padding: 0 50px 0 30px;
+}
+
+.contact-right h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.contact-page form input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-weight: lighter;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+    background-color: #f2f2f2;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Raleway';
+}
+
+textarea.form-control {
+    min-height: 150px;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+    background-color: #f2f2f2;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Raleway';
+    font-weight: lighter;
+}
+
+.form-error {
+    display: none;
+    color: #bc0000;
+    font-size: 15px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.btn_submit {
+    font-family: 'Raleway';
+    padding: 0 20px;
+    width: 60%;
+    height: 50px;
+    border-radius: 2px;
+    background: #38bfa6;
+    font-size: 15px;
+    color: #16120B;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #73BDA9;
+    margin-top: 30px;
+}
+
+.btn_submit:hover,
+.btn_submit:focus,
+.btn_submit:checked {
+    background: #16120B;
+    color: #fff;
+    border: none;
+    transition: 0.2s;
+}
+
+.contact-page form #send:hover {
+    background: #16120B;
+    color: #fff;
+    border: none;
+}
+
+@media screen and (max-width: 930px) {
+    .contact-activee {
+        max-width: 100%;
+        left: 0;
+    }
+    /* HEADER */
+    .contact-header {
+        height: 350px;
+        background-image: url(../photos/shoes_77.png);
+    }
+    header h1 {
+        text-align: center;
+        font-size: 27px;
+        margin: 0 auto;
+    }
+    header h1 br,
+    header p,
+    .contact-header h2,
+    .contact-left {
+        display: none;
+    }
+    .main-contact {
+        background: none;
+    }
+    .contact-area {
+        margin: 0;
+        height: 790px;
+    }
+    .contact-right {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .contact-right h2 {
+        margin-top: 50px;
+    }
+    .contact-page form input,
+    .contact-page form textarea {
+        margin-top: 20px;
+    }
+    .contact-page form #send {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 930px) {
+    .main-contact {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    header h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

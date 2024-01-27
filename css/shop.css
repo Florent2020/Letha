@@ -1,0 +1,247 @@
+/* Shop Header
+---------------- */
+
+header {
+    background-image: none;
+}
+
+.shop-header {
+    background-image: url(../photos/shop-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.shop-header h1 {
+    font-weight: 500;
+    position: absolute;
+    left: 100px;
+    top: 310px;
+}
+
+.shop-header h3 {
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    left: 130px;
+    top: 280px;
+}
+
+.shop-active {
+    border: 1.5px solid rgb(162, 160, 160);
+    max-width: 48%;
+    position: relative;
+    left: 28px;
+    top: 2px;
+}
+
+
+/* Main 
+----------------- */
+
+main .shop-container {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.shop-container .sale-articles {
+    display: flex;
+    border-bottom: 1.5px solid #ddd;
+    align-items: center;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.shop-container .left-part {
+    max-width: 50%;
+    margin: 10px;
+    padding: 80px;
+}
+
+.left-part img {
+    width: 350px;
+}
+
+.shop-container .right-part {
+    max-width: 40%;
+    margin: 10px;
+}
+
+.right-part h2 {
+    font-weight: 500;
+}
+
+.right-part h2 span {
+    color: #38A4F8;
+    font-weight: 500;
+}
+
+.shop-container .right-part h3 {
+    border-top: 1.5px solid #ddd;
+    border-bottom: 1.5px solid #ddd;
+    margin: 15px 0px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.right-part div.sale-line {
+    width: 50px;
+    position: relative;
+    bottom: 38px;
+    left: 56px;
+    height: 3px;
+    border: none;
+    background-color: #000;
+}
+
+.right-part h3 .sale-span {
+    color: #F30E0E;
+    font-weight: 500;
+}
+
+.right-part h3 .green-shipping {
+    color: #398D41;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.right-part p {
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.right-part a {
+    padding: 10px 15px;
+    background: #F30E0E;
+    color: #fff;
+    font-weight: 700;
+}
+
+.right-part a:hover {
+    background: rgb(209, 17, 17);
+}
+
+
+/* New shoes 
+----------------- */
+
+.shoes-new {
+    max-width: 700px;
+    margin: 80px auto 50px;
+}
+
+.shoes-new .row {
+    display: flex;
+}
+
+.shoes-new .col-2 {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.col-2 h5 {
+    color: #F30E0E;
+    text-align: left;
+}
+
+.col-2 img {
+    width: 270px;
+    height: 180px;
+    margin: 0 0 10px;
+}
+
+.col-2 h3 {
+    font-weight: 500;
+    text-align: left;
+}
+
+.col-2 p {
+    color: #000;
+    font-weight: 300;
+    padding: 8px 0;
+    text-align: left;
+}
+
+.col-2 h4 {
+    font-weight: 500;
+    text-align: left;
+}
+
+.col-2 a button {
+    padding: 10px 15px;
+    background: #F30E0E;
+    color: #fff;
+    font-weight: 700;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+.col-2 a button:hover {
+    background: rgb(209, 17, 17);
+}
+
+@media screen and (max-width: 930px) {
+    /* HEADER */
+    .shop-header {
+        height: 400px;
+    }
+    .shop-header h3 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 275px;
+        font-size: 26px;
+    }
+    .shop-header h1 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 300px;
+        font-size: 35px;
+    }
+    /* SHOP CONTAINER */
+    .shop-container .sale-articles {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .shop-container .left-part {
+        padding: 20px;
+        max-width: 100%;
+    }
+    .shop-container .right-part {
+        max-width: 100%;
+        padding: 30px;
+    }
+    /* NEW SHOES */
+    .shoes-new .row {
+        display: block;
+    }
+    .shoes-new .col-2 {
+        padding: 20px 30px;
+        margin: 20px 30px;
+        position: relative;
+    }
+    .col-2 a button {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .col-2 img {
+        height: auto;
+    }
+    .shop-container .sale-articles {
+        width: 100%;
+        padding: 20px;
+    }
+    .shop-container .left-part,
+    .shop-container .right-part {
+        padding: 20px 0;
+    }
+}
